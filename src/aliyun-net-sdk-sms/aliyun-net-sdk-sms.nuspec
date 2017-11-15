@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IcerDesign.Aliyun.Acs.Sms</id>
+    <version>1.0.1</version>
+    <title></title>
+    <authors>Aliyun, Allen, Icer</authors>
+    <owners>IcerDesign</owners>
+    <licenseUrl>https://github.com/wizicer/aliyun-openapi-sdk-net-core</licenseUrl>
+    <projectUrl>https://github.com/wizicer/aliyun-openapi-sdk-net-core</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/wizicer/aliyun-openapi-sdk-net-core/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>aliyun open api sdk for .net core</description>
+    <summary>.net core 1.0，故向上支持1.1-2.0，因为nuget要求名称唯一，所以前面添加了IcerDesign，但是实际命名空间和文件名都并未修改，可放心使用。</summary>
+    <releaseNotes>其实我就是想用短信功能，尝试nuget上面的另外两个版本，都不工作，所以就去fork出来自己编译了，项目主页附上了示例代码</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>aliyun openapi sdk sms</tags>
+    <repository type="git" url="https://github.com/wizicer/aliyun-openapi-sdk-net-core" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.0">
+        <dependency id="IcerDesign.Aliyun.Acs.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="1.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\build\bin\Release\netcoreapp1.0\Aliyun.Acs.Sms.dll" target="lib\netcoreapp1.0" />
+  </files>
+</package>

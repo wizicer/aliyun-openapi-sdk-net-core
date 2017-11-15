@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Aliyun, Icer</authors>
+    <owners>wizicer</owners>
+    <licenseUrl>https://github.com/wizicer/aliyun-openapi-sdk-net-core</licenseUrl>
+    <projectUrl>https://github.com/wizicer/aliyun-openapi-sdk-net-core</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>其实我就是想用短信功能，尝试nuget上面的另外两个版本，都不工作，所以就去fork出来自己编译了，项目主页附上了示例代码</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Aliyun</tags>
+  </metadata>
+</package>

@@ -6,17 +6,19 @@
     <RootNamespace>Aliyun.Acs.Sms</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Authors>Aliyun Allen</Authors>
+    <Authors>Aliyun, Allen, Icer</Authors>
     <Company>Aliyun</Company>
     <Description>aliyun open api sdk for .net core</Description>
     <Copyright>Copyright (c) 2017 Aliyun</Copyright>
-    <PackageLicenseUrl>https://github.com/VAllens/aliyun-openapi-sdk-net-core/blob/master/LICENSE.md</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/VAllens/aliyun-openapi-sdk-net-core</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/VAllens/aliyun-openapi-sdk-net-core/master/logo.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/VAllens/aliyun-openapi-sdk-net-core</RepositoryUrl>
+    <PackageId>IcerDesign.Aliyun.Acs.Sms</PackageId>
+    <PackageLicenseUrl>https://github.com/wizicer/aliyun-openapi-sdk-net-core/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/wizicer/aliyun-openapi-sdk-net-core</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/wizicer/aliyun-openapi-sdk-net-core/master/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/wizicer/aliyun-openapi-sdk-net-core</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>aliyun openapi sdk</PackageTags>
-    <PackageReleaseNotes>https://github.com/VAllens/aliyun-openapi-sdk-net-core/releases</PackageReleaseNotes>
+    <PackageTags>aliyun openapi sdk sms</PackageTags>
+    <PackageReleaseNotes>其实我就是想用短信功能，尝试nuget上面的另外两个版本，都不工作，所以就去fork出来自己编译了，项目主页附上了示例代码</PackageReleaseNotes>
+    <NuspecFile>aliyun-net-sdk-sms.nuspec</NuspecFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
