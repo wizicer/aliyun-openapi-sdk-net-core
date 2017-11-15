@@ -1,12 +1,28 @@
 # Open API SDK for .Net Core developers
 
+原sdk是建议直接下载编译链接使用的，但是如果你和我一样在使用dotnet core 1.1/2.0 mvc，可能会和我一样遇到
+`Cannot find compilation library location for package`错误。参考链接：
+
+* https://github.com/dotnet/core-setup/issues/3397
+* https://github.com/dotnet/core-setup/issues/2981
+
+基本解决方案就是不用直接引用，而是使用nuget包，所以这里我就上传了一份可以用的版本。
+
 ## Dependence
 
 - 支持 .Net Core 1.0 及以上版本；
 
 ## Nuget
 
-- 下载SDK 把 Aliyun.Acs.Core.dll 和相应产品的 .dll 文件添加引用到项目中。
+只要短信功能的话：
+```
+PM> Install-Package IcerDesign.Aliyun.Acs.Sms -Version 1.0.1 
+```
+
+如果需要其他功能，可能需要：
+```
+PM> Install-Package IcerDesign.Aliyun.Acs.Core -Version 1.0.0 
+```
 
 ## Example
 
